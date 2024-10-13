@@ -1,0 +1,56 @@
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0,0%,0%,0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.ci{
+  width: 100px;
+  height: 100px;
+}
+.hh{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  
+}
+.counter{
+  text-align: center;
+}
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: aqua;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+.picker-control{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color{
+  height: 150px;
+  width: 150px;
+  background-color: #4cc971;
+  border-radius: 50px;
+  display: grid;
+  place-content: center;
+  font-weight: bold;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+.picker-control input{
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  width: 30px;
+}
